@@ -1,0 +1,38 @@
+{
+    "name": "notesow/translatorapi",
+    "description": "Simple and fast automatic string translation system for multilingual website.",
+    "keywords": [
+        "translator php",
+        "translator php api",
+        "google php api",
+        "laravel translator api",
+        "codeigniter translator api",
+        "symfony translator api",
+        "Yii Framework translator api",
+        "CakePHP translator api",
+        "Zend Framework translator api"
+    ],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Davide Perricone",
+            "email": "note.sowquality@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1|^8.0",
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3.3"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable" : true,
+    "autoload": {
+        "psr-4": {
+            "notesow\\": "src/",
+            "notesow\\translatorapi\\": "src/"
+        }
+    }
+}

@@ -7,7 +7,7 @@ Simple and fast automatic string translation system for multilingual website
 
 | PHP Version | Status | Require  | version |
 |-------------|--------|----------|---------|
-| PHP >=7.4   | @Beta  | Composer | 2.7.1   |
+| PHP >= 7.4  | @Beta  | Composer | 2.7.1   |
 
 ### 🐱‍🚀 Install Library:
 
