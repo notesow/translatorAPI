@@ -56,7 +56,7 @@ class HttpTranslator {
         $sentences = "";
 
         if (!$sentencesArray || !isset($sentencesArray[0]))
-            throw new \Exception("Google detected unusual traffic from your computer network, try again later (2 - 48 hours)");
+            throw new \notesow\translatorAPI\Exceptions\Handler('Google detected unusual traffic from your computer network, try again later (2 - 48 hours)');
 
         foreach ($sentencesArray[0] as $s) {
             $sentences .= isset($s[0]) ? $s[0] : '';
