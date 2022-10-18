@@ -1,5 +1,5 @@
 <?php
-namespace notesow\translatorAPI\Http;
+namespace notesow\translatorAPI\HttpClient;
 
 use notesow\translatorAPI\translatorAPI;
 
@@ -69,3 +69,4 @@ class HttpTranslator {
 
     }
 }
+

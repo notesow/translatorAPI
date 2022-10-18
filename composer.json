@@ -1,5 +1,6 @@
 {
     "name": "notesow/translatorapi",
+    "type": "library",
     "description": "Simple and fast automatic string translation system for multilingual website.",
     "keywords": [
         "translator php",
@@ -12,6 +13,7 @@
         "CakePHP translator api",
         "Zend Framework translator api"
     ],
+    "homepage": "https://github.com/notesow/translatorAPI",
     "license": "Apache-2.0",
     "authors": [
         {
